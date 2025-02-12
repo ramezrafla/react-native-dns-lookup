@@ -5,6 +5,12 @@ def safeExtGet(prop, fallback) {
 }
 
 buildscript {
+  repositories {
+    google()
+    jcenter()
+    mavenCentral()
+  }
+
     dependencies {
         classpath 'com.android.tools.build:gradle:8.7.2'
     }
